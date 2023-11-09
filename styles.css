@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost&family=Lato:wght@700&family=Pacifico&family=Poppins&family=Quicksand&family=Urbanist:wght@400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-size: 10px;
+}
+
+h1 {
+  color: white;
+  font-size: 5rem;
+  text-shadow: 0.6rem 0.6rem black;
+  font-family: "Lato", sans-serif;
+}
+
+p {
+  color: white;
+  font-family: "Urbanist";
+  word-spacing: 0.17rem;
+  letter-spacing: 0.2rem;
+  font-size: 2rem;
+  line-height: 1.5;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+section {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.section1 {
+  background-attachment: fixed;
+  background-image: url("public/pexels-hyundai-motor-group-11194874.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.section2 {
+  background-attachment: fixed;
+  background-image: url("./public/pexels-pixabay-261985.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.section3 {
+  background-attachment: fixed;
+  background-image: url("./public/pexels-yura-forrat-10550888.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
