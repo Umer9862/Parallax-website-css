@@ -55,3 +55,8 @@ section {
   background-repeat: no-repeat;
   background-size: cover;
 }
+p::first-letter {
+  text-transform: uppercase;
+  font-size: 3rem;
+  font-weight: 800;
+}
